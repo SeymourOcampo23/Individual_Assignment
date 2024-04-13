@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="property1.html">Property 1</a></li>
+            <li><a href="property2.html">Property 2</a></li>
+            <li><a href="property3.html">Property 3</a></li>
+            <li><a href="available_properties.html">Available Properties</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Site Map & Credits</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="page">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="propertyType">Type of Property:</label><br>
+        <select id="propertyType" name="propertyType">
+            <option value="house">House</option>
+            <option value="condominium">Condominium</option>
+        </select><br>
+
+        <label for="bedrooms">Number of Bedrooms:</label><br>
+        <input type="number" id="bedrooms" name="bedrooms" min="1" required><br>
+
+        <label for="bathrooms">Number of Bathrooms:</label><br>
+        <input type="number" id="bathrooms" name="bathrooms" min="1" required><br>
+
+        <label for="priceRange">Price Range:</label><br>
+        <input type="text" id="priceRange" name="priceRange" required><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+        <footer><p style="font-size: small; text-align: center;">&copy; Copyright 2024 - Seymour Ocampo - 300961648 - Comp 213 - Sec 008 Web Interface Design - Winter 2024</p></footer>
+
+</body>
+</html>

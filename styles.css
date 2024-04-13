@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #77B0AA; /* Updated background color */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E3FEF7   ;
+    border-radius: 5px;
+}
+
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.headshot {
+height: 260px;
+width: 190px;
+}
+
+.carousel-item img {
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.carousel-item img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.house_images
+{
+height: 450px;
+width: 600px;
+}
+
